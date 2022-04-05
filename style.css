@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 3px #9b0f39;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.formula {
+    text-align: center;
+    font-size: 16px;
+}
+
+p {
+    text-align: left;
+    font-style: oblique;
+}
+
+input {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+input:focus,
+input:active {
+    outline: 0px;
+    border-bottom: 2px solid #000000;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+button {
+    color: #ffffff;
+    background-color: #9e1313;
+    border: 1px solid #000000;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+button:active {
+    color: #ffffff;
+    background-color: #581a1a;
+}
+
+.Boxresult {
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -30%);
+    border: solid 3px #9b0f39;
+    padding: 10px;
+}
+
+.velocity {
+    padding: 5px;
+}
